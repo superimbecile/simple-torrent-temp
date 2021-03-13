@@ -1,2 +1,4 @@
-FROM tsl0922/ttyd
-CMD ["ttyd", "bash"]
+FROM boypt/cloud-torrent
+
+ENTRYPOINT cloud-torrent -a admin:google
+
